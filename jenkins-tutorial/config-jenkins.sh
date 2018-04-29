@@ -22,7 +22,7 @@ sudo apt-get update && sudo apt-get install azure-cli
 
 # Kubectl
 cd /tmp/
-sudo curl -kLO https://storage.googleapis.com/kubernetes-release/release/v1.8.0/bin/linux/amd64/kubectl
+sudo curl -kLO https://storage.googleapis.com/kubernetes-release/release/v1.10.2/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
 
